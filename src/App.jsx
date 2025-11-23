@@ -66,9 +66,9 @@ export default function PanoramaApp() {
     
     panoramas.forEach((pano, index) => {
       const marker = L.circleMarker([pano.lat, pano.lng], {
-        radius: index === currentIndex ? 12 : 8,
-        fillColor: index === currentIndex ? "#3b82f6" : "#9ca3af",
-        color: index === currentIndex ? "#1e40af" : "#6b7280",
+        radius: 8,
+        fillColor: "#9ca3af",
+        color: "#6b7280",
         weight: 2,
         opacity: 1,
         fillOpacity: 0.8,
@@ -233,9 +233,6 @@ export default function PanoramaApp() {
             <div style={{ marginBottom: "8px" }}>
               <p style={{ fontSize: "14px", color: "black", margin: "0" }}>
                 Image {currentIndex + 1} of {panoramas.length}
-              </p>
-              <p style={{ fontSize: "12px", color: "black", margin: "4px 0 0 0" }}>
-                Lat: {current.lat.toFixed(4)}, Lng: {current.lng.toFixed(4)}
               </p>
             </div>
 
