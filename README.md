@@ -2,6 +2,10 @@
 
 This is a React application that displays interactive 360° panoramic images on a map interface.
 
+Live: https://geo-panorama-viewer.vercel.app
+
+![Panorama viewer demo](docs/demo.gif)
+
 ## Features
 
 - Interactive map with location markers
@@ -14,7 +18,7 @@ This is a React application that displays interactive 360° panoramic images on 
 1. Clone or download the repository
 2. Navigate to the project directory:
    ```bash
-   cd my-react-app
+   cd geo-panorama-viewer
    ```
 
 3. Install dependencies:
